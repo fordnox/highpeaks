@@ -127,6 +127,11 @@ export default async function HomePage() {
         title: "Messenger Group",
         image: "/highpeaks.jpg"
       },
+      {
+        href: "https://docs.google.com/forms/d/e/1FAIpQLSc4OpaVitboadqFFWWPBxXpJY0a7oS1czorJT9NodEOAlCTeQ/viewform?usp=sf_link",
+        title: "Prisijunk ir tu",
+        image: "/highpeaks.jpg"
+      },
     ]
   }
 
