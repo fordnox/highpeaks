@@ -108,11 +108,26 @@ interface Social {
 }
 
 export default async function HomePage() {
-  const data: Data | undefined = await get('linktree');
-
-  if (!data) {
-    // not working yet https://github.com/vercel/next.js/issues/44232
-    redirect('https://linktr.ee/selenagomez');
+  const data = {
+    name: "HighPeaks LIETUVA",
+    avatar: "/highpeaks.jpg",
+    links: [
+      {
+        href: "https://www.facebook.com/HighPeaksLietuva",
+        title: "Facebook",
+        image: "/highpeaks.jpg"
+      },
+      {
+        href: "https://www.instagram.com/highpeakslietuva",
+        title: "Instagram",
+        image: "/highpeaks.jpg"
+      },
+      {
+        href: "https://www.messenger.com/t/3575421825809206",
+        title: "Messenger Group",
+        image: "/highpeaks.jpg"
+      },
+    ]
   }
 
   return (
@@ -129,23 +144,6 @@ export default async function HomePage() {
       {data.links.map((link) => (
         <LinkCard key={link.href} {...link} />
       ))}
-      <div className="flex items-center gap-4 mt-8 text-white">
-        {data.socials.map((social) => (
-          <a
-            aria-label={`${social.title} link`}
-            key={social.href}
-            href={social.href}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {social.href.includes('twitter') ? (
-              <TwitterIcon />
-            ) : social.href.includes('github') ? (
-              <GitHubIcon />
-            ) : null}
-          </a>
-        ))}
-      </div>
     </div>
   );
 }
