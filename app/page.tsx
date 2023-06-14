@@ -115,22 +115,22 @@ export default async function HomePage() {
       {
         href: "https://www.facebook.com/HighPeaksLietuva",
         title: "Facebook",
-        image: "/highpeaks.jpg"
+        image: "https://logo.clearbit.com/facebook.com"
       },
       {
         href: "https://www.instagram.com/highpeakslietuva",
         title: "Instagram",
-        image: "/highpeaks.jpg"
+        image: "/instagram.svg"
       },
       {
         href: "https://www.messenger.com/t/3575421825809206",
         title: "Messenger Group",
-        image: "/highpeaks.jpg"
+        image: "/messenger.svg"
       },
       {
         href: "https://docs.google.com/forms/d/e/1FAIpQLSc4OpaVitboadqFFWWPBxXpJY0a7oS1czorJT9NodEOAlCTeQ/viewform?usp=sf_link",
         title: "Prisijunk ir tu",
-        image: "/highpeaks.jpg"
+        image: "https://logo.clearbit.com/google.com"
       },
     ]
   }
