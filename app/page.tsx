@@ -128,6 +128,11 @@ export default async function HomePage() {
         image: "/messenger.svg"
       },
       {
+        href: "https://strava.app.link/n71OtcKTJAb",
+        title: "Strava",
+        image: "/instagram.svg"
+      },
+      {
         href: "https://docs.google.com/forms/d/e/1FAIpQLSc4OpaVitboadqFFWWPBxXpJY0a7oS1czorJT9NodEOAlCTeQ/viewform?usp=sf_link",
         title: "Prisijunk ir tu",
         image: "/forms.svg"
