@@ -130,7 +130,7 @@ export default async function HomePage() {
       {
         href: "https://strava.app.link/n71OtcKTJAb",
         title: "Strava",
-        image: "/instagram.svg"
+        image: "/strava.svg"
       },
       {
         href: "https://docs.google.com/forms/d/e/1FAIpQLSc4OpaVitboadqFFWWPBxXpJY0a7oS1czorJT9NodEOAlCTeQ/viewform?usp=sf_link",
